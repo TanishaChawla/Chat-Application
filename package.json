@@ -18,6 +18,9 @@
     "type": "git",
     "url": "git+https://github.com/TanishaChawla/Chat-Application.git"
   },
+  "engines": {
+    "node": "6.0.0"
+  },
   "keywords": [
     "chat",
     "pap",
