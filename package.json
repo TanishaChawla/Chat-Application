@@ -1,0 +1,29 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat application implementing pap and chap authentication",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanishaChawla/Chat-Application.git"
+  },
+  "keywords": [
+    "chat",
+    "pap",
+    "chap"
+  ],
+  "author": "Tanisha Chawla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanishaChawla/Chat-Application/issues"
+  },
+  "homepage": "https://github.com/TanishaChawla/Chat-Application#readme"
+}
