@@ -11,6 +11,7 @@ app.get('/', function(req, res){
     res.sendFile(path.join(__dirname, '../chat', 'username.html'));
 });
 var name="";
+app.set('port',process.env.PORT || 4500);
 app.post('/',function(req,res){
     name=req.body.name;
     var password=req.body.password;
@@ -38,6 +39,6 @@ io.on('connection', function(socket){
 });
 
 // Listen application request on port 3000
-http.listen(4500, function(){
-    console.log('listening on *:3000');
+http.listen(app.get('port'), function(){
+    console.log('listening on :'+app.get('port'));
 });
